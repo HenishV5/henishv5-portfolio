@@ -1,0 +1,48 @@
+@import '@fontsource/inter';
+
+/* Theme variables */
+:root {
+  --bg-main: #f5f3ff; /* soft lavender */
+  --bg-card: #ffffff; /* white cards */
+  --text-main: #232038; /* deep indigo */
+  --text-heading: #5b21b6; /* indigo-violet */
+  --text-secondary: #6d6a7c; /* muted purple-grey */
+  --badge-bg: #ede9fe; /* pale violet */
+  --badge-text: #232038;
+  --badge-shadow: rgba(91,33,182,0.08);
+  --accent: #7c3aed; /* vibrant violet */
+}
+[data-theme="dark"] {
+  --bg-main: #0a0a12; /* deep navy/near-black */
+  --bg-card: #161622; /* very dark card */
+  --text-main: #f3f4fa;
+  --text-heading: #a78bfa;
+  --text-secondary: #b5b7c9;
+  --badge-bg: #23233a;
+  --badge-text: #f3f4fa;
+  --badge-shadow: rgba(167,139,250,0.10);
+  --accent: #38bdf8;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  background: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section {
+  background: var(--bg-card);
+}
+
+section h1, section h2, section h3 {
+  color: var(--text-heading);
+}
