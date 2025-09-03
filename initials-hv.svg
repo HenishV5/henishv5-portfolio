@@ -1,0 +1,17 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .initials-text {
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+  <rect width="80" height="80" fill="#315060" stroke="#6B5A33" stroke-width="3"/>
+  <text x="40" y="40" class="initials-text">HV</text>
+</svg>
